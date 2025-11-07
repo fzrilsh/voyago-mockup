@@ -1,13 +1,12 @@
 <div class="min-h-screen bg-zinc-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
     <div class="max-w-md w-full">
         <div class="bg-white rounded-2xl shadow-xl p-8">
-            <div class="text-center mb-8">
-                <a href="/" class="inline-block mb-6">
-                    <img src="/logo.png" alt="Voyago" class="h-12 w-auto mx-auto" />
-                </a>
-                <h2 class="text-3xl font-bold text-zinc-900">Welcome Back</h2>
-                <p class="mt-2 text-zinc-600">Sign in to your account to continue</p>
-            </div>
+                        <div class="w-full max-w-md">
+                <div class="text-center mb-8">
+                    <img src="{{ asset('logo.png') }}" alt="Voyago" class="h-12 w-auto mx-auto" />
+                    <h1 class="text-3xl font-bold text-zinc-900 mb-2 mt-4">Welcome Back</h1>
+                    <p class="text-zinc-600">Sign in to your account to continue</p>
+                </div>
 
             <form wire:submit.prevent class="space-y-6">
                 <div>

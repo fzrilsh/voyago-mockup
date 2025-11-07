@@ -5,7 +5,7 @@
             {{-- Logo - Spanning 2 rows --}}
             <div class="flex items-center pr-8 py-2">
                 <a href="/">
-                    <img src="/logo.png" alt="Voyago" class="h-10 w-auto" />
+                    <img src="{{ asset('logo.png') }}" alt="Voyago" class="h-10 w-auto" />
                 </a>
             </div>
             

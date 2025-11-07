@@ -5,7 +5,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             {{-- Company Info --}}
             <div class="lg:col-span-1">
-                <img src="/logo.png" alt="Voyago" class="h-10 mb-6 brightness-0 invert" />
+                <img src="{{ asset('logo.png') }}" alt="Voyago" class="h-10 mb-6 brightness-0 invert" />
                 <p class="text-white/80 text-sm mb-6 leading-relaxed">
                     Your trusted travel companion. Discover amazing destinations and create unforgettable memories with Voyago.
                 </p>
