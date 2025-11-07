@@ -6,7 +6,7 @@
     <div class="bg-zinc-50 border-b border-zinc-200">
         <div class="container mx-auto px-4 py-4">
             <div class="flex items-center gap-2 text-sm text-zinc-600">
-                <a href="/" class="hover:text-primary">Home</a>
+                <a href="{{ url('/') }}" class="hover:text-primary">Home</a>
                 <span>/</span>
                 <a href="#" class="hover:text-primary">{{ $product['location'] }}</a>
                 <span>/</span>

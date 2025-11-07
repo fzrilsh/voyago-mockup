@@ -73,7 +73,7 @@
             @endphp
             
             @foreach($deals as $index => $item)
-            <a href="/product/{{ $index === 0 ? 'vatican-museums-sistine-chapel' : 'tour-' . ($index + 1) }}" class="min-w-[320px] w-[320px] shrink-0 bg-white rounded-lg border border-zinc-200 shadow-sm overflow-hidden hover:shadow-lg transition-shadow block">
+            <a href="{{ url('/product/' . ($index === 0 ? 'vatican-museums-sistine-chapel' : 'tour-' . ($index + 1))) }}" class="min-w-[320px] w-[320px] shrink-0 bg-white rounded-lg border border-zinc-200 shadow-sm overflow-hidden hover:shadow-lg transition-shadow block">
                 <div class="w-[320px] h-52 overflow-hidden bg-zinc-100">
                     <img src="{{ $item['image_url'] }}" alt="{{ $item['title'] }}" class="w-full h-full object-cover" />
                 </div>
