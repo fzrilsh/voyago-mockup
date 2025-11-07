@@ -1,5 +1,5 @@
 {{-- Influencer Recommendation --}}
-<section class="py-16 bg-zinc-50">
+<section class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8 text-zinc-900">Influencer Recommendation</h2>
         <div class="flex overflow-x-auto gap-6 pb-4 scrollbar-hide">

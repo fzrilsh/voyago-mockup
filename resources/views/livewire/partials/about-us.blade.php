@@ -1,5 +1,5 @@
 {{-- About Us Section --}}
-<section class="py-20 bg-white">
+<section class="py-20 bg-zinc-50">
     <div class="container mx-auto px-6">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
             {{-- Left Content --}}
@@ -52,8 +52,13 @@
             </div>
         </div>
 
+        {{-- Divider --}}
+        <div class="my-20">
+            <hr class="border-t-2 border-zinc-200" />
+        </div>
+
         {{-- Our Values --}}
-        <div class="mt-20">
+        <div>
             <h3 class="text-3xl font-bold text-center text-zinc-900 mb-4">Why choose Voyago?</h3>
             <p class="text-center text-lg text-zinc-600 max-w-3xl mx-auto mb-12">
                 We believe travel is more than just sightseeing. It's about connection—with places, with people, and with yourself. Voyago is here to help you explore in a way that matters.
