@@ -3,6 +3,7 @@
 namespace App\Livewire;
 
 use Livewire\Attributes\Layout;
+use Livewire\Attributes\Title;
 use Livewire\Component;
 
 #[Layout('layouts.app')]
@@ -116,6 +117,13 @@ class ProductDetail extends Component
 
     public function render()
     {
-        return view('livewire.product-detail');
+        $metaDescription = substr(strip_tags($this->product['description']), 0, 160);
+        $metaImage = $this->product['images'][0] ?? asset('logo.png');
+        
+        return view('livewire.product-detail', [
+            'title' => $this->product['title'] . ' - Voyago',
+            'description' => $metaDescription,
+            'image' => $metaImage,
+        ]);
     }
 }

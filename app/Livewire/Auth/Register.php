@@ -18,6 +18,10 @@ class Register extends Component
     #[Layout('layouts.app')]
     public function render()
     {
-        return view('livewire.auth.register');
+        return view('livewire.auth.register', [
+            'title' => 'Register - Voyago',
+            'description' => 'Create your Voyago account and start booking amazing tours and travel experiences.',
+            'image' => asset('logo.png'),
+        ]);
     }
 }
